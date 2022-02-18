@@ -7,7 +7,7 @@
 </head>
 <body>
 	<?php
-		echo "Buenas " . $_GET['asunto'] . ", su mensaje sobre el asunto " . $_GET['nombre'] . " está enviando con éxito";
+		echo "Buenas " . $_GET['nombre'] . ", su mensaje sobre el asunto " . $_GET['asunto'] . " está enviando con éxito";
 
 		echo "<br>" . "El mensaje es: " . $_GET['mensaje'];
 	?>
